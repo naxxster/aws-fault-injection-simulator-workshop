@@ -1,0 +1,8 @@
++++
+draft = true
+title = "page 1" 
+description = "This is a demo child page"
+hidden = true
++++
+
+This is a demo child page

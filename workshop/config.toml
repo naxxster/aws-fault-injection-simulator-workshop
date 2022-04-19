@@ -53,6 +53,11 @@ title = "Mon atelier AWS"
 weight = 2
 languageName = "Français"
 
+[Languages.kr]
+title = "My AWS Workshop"
+weight = 3
+languageName = "Korean"
+
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
