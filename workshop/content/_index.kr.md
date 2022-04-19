@@ -8,5 +8,5 @@ services: true
 {{< img "FIS_Overview.png" "FIS overview">}}
 
 {{% notice note %}}
-Please use the orange arrows or the side menu to navigate the workshop.
+오렌지 색 화살표나 사이드 메뉴를 통해 워크샵을 살펴보실 수 있습니다.
 {{% /notice %}}

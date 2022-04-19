@@ -1,30 +1,30 @@
 ---
-title: "Introduction"
+title: "소개"
 chapter: true
 weight: 10
 services: true
 ---
-This workshop provides an introduction to chaos engineering using Amazon Web Services (AWS) tooling, with a focus on AWS Fault Injection Simulator (FIS). It introduces the core elements of chaos engineering: 
+이 워크샵은 AWS Fault Injestion Simulator (FIS)를 중심으로 하는 Amazon Web Services (AWS) 도구들을 사용한 카오스 엔지니어링을 소개합니다. 이 워크샵은 다음과 같은 카오스 엔지니어링의 핵심 요소들을 보여줍니다.
 
-* form a hypothesis (plan),
-* introduce stress (do),
-* observe (check), and 
-* improve (act). 
+* 가설을 만들고 (plan),
+* 스트레스를 가하고 (do),
+* 관찰하고 (check),
+* 개선하기 (act). 
 
-You will learn how to use FIS and other AWS tools to inject faults in your infrastructure to validate your system's resilience as well as verifying your alarms, observability, and monitoring practices.
+이 과정을 통해 여러분은 FIS 와 AWS 의 여러 도구들을 활용하여 여러분들의 인프라스트럭처에 장애 상황을 만들고, 그를 통해 시스템의 복원력을 검증하고, 알림, 관찰 가능성(observability), 모니터링이 정상 동작을 확인하는 방법을 배울 수 있습니다.
 
-## Target audience
+## 대상
 
-This is a technical workshop introducing chaos engineering practices for Dev, QA and Ops teams. For best results, the participants should have familiarity with the AWS console as well as some proficiency with command-line tooling. 
+이 워크샵은 개발팀, QA팀, 운영팀에게 카오스 엔지니어링 기법들을 소개하는 기술 워크샵입니다. 워크샵의 원활히 진행하기 위해서는 AWS 콘솔에 익숙하고, 명령행 도구도 어느 정도 다룰 수 있어야 합니다.
 
-Additionally, chaos engineering is about proving or disproving a hypothesis of how a particular fault might affect the overall system behavior (steady-state) so an understanding of the systems being disrupted is helpful but not required to do the workshop.
+추가적으로, 카오스 엔지니어링은 특정 장애 상황이 안정적인 상황에서의 전체 시스템의 동작에 주는 영향에 대한 가설을 검증,반증하는 작업이기 때문에, 장애에 영향을 받는 시스템에 대한 이해도가 높은 경우 효과적입니다. 다만 이 워크샵의 진행에는 그러한 이해도가 필수는 아닙니다.
 
-## Duration
+## 소요 시간
 
-When run in a prepared AWS account the core sections of the workshop will take between 1-2h. The whole workshop about 2-4h. Using the Amazon DevOps Guru section will require an additional 2-24h of wait time after the infrastructure has been configured.
+미리 인프라스턱처가 준비된 AWS 계정을 통해 워크샵을 진행할 경우, 핵심 파트에 대해서는 1-2시간, 전체 워크샵에 대해서는 2-4시간 가량이 필요합니다. Amazon DevOps Guru 에 대한 파트의 경우 인프라스트럭처가 구성된 이후에 추가로 2-24시간의 대기 시간이 필요합니다.
 
-When run in a customer account, deploying the workshop's core infrastructure will require an additional 45min. 
+고객의 계정에서 진행하는 경우, 핵심 인프라스트럭처를 배포하는데 추가로 45분이 필요합니다.
 
-## Cost
+## 비용
 
-When run in a private customer account, this workshop will incur costs on the order of USD1/h for the infrastructure created. Please ensure you clean up all infrastructure after finishing the workshop to prevent continuing expenses. You can find instructions in the [**Cleanup**]({{< ref "990_cleanup" >}}) section. 
+이 워크샵을 고객의 개인 계정에서 진행하는 경우, 생성한 인프라스트럭처에 대한 비용으로 시간 당 1USD 가량의 비용이 발생합니다. 워크샵을 마친 후에서 추가적인 비용이 발생되지 않도록 워크샵 진행 중에 생성한 모든 인프라스트럭처를 정리해야 합니다. 정리 과정에 대해서는 [**정리하기**]({{< ref "990_cleanup" >}}) 파트를 살펴보십시오.
