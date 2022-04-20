@@ -1,15 +1,14 @@
 ---
-title: "Start the workshop"
+title: "워크샵 시작"
 chapter: true
 weight: 20
 services: true
 ---
 
-To start the workshop, follow one of the following links:
- depending on whether you are...
+워크샵을 시작하려면 다음 링크 중 하나를 따르십시오:
+ 만약 여러분이...
 
-* [**Running the workshop in your own account**]({{< ref "010_self_paced/" >}})
-* [**Running in an AWS provided account (using AWS provided hashes)**]({{< ref "020_aws_event/" >}})
+* [**자신의 계정으로 워크샵 진행한다면 여기**]({{< ref "010_self_paced/" >}})
+* [**(AWS에서 제공한 해시 사용하여) AWS 제공 계정에서 진행한다면 여기**]({{< ref "020_aws_event/" >}}) 
 
-Once you have completed one of the setup paths above, continue with [**Region Selection**]({{< ref "030_region_selection" >}})
-
+위의 설정 경로 중 하나를 완료했으면 [**리전 선택**]({{< ref "030_region_selection" >}}) 으로 계속 진행합니다.

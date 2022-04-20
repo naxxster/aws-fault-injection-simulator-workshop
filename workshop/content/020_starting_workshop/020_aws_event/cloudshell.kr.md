@@ -1,17 +1,17 @@
 ---
-title: "Configure AWS CloudShell"
+title: "AWS CloudShell 구성"
 chapter: false
 weight: 20
 services: true
 ---
 
-While it is possible to do this workshop from your desktop, the instructions in this workshop will assume that you are using AWS CloudShell (AWS events) or AWS Cloud9 (in your own account). 
+데스크톱에서 이 워크샵을 진행할 수도 있지만, 이 워크샵의 지침에서는 AWS CloudShell (AWS 이벤트에서 진행 시) 또는 AWS Cloud9 (자신의 계정에서 진행 시)을 사용하고 있다고 가정합니다. 
 
-To open CloudShell, navigate to the [AWS console](https://console.aws.amazon.com/console/home) and either search for "CloudShell" or click on the CloudShell icon in the menu bar:
+CloudShell을 열려면 [AWS 콘솔](https://console.aws.amazon.com/console/home)로 이동하여 "CloudShell"을 검색하거나 메뉴 모음에서 CloudShell 아이콘을 클릭합니다.
 
-{{< img "start-cloudshell.png" "Start CloudShell" >}}
+{{< img "start-cloudshell.png" "CloudShell 시작하기" >}}
 
-Once the CloudShell terminal opens, we need to check out the GitHub repository. Paste the following into your CloudShell:
+CloudShell 터미널이 열리면 GitHub 저장소를 내려받아야 합니다. 다음 내용을 CloudShell에 붙여넣습니다.
 
 ```bash
 mkdir -p ~/environment
@@ -19,24 +19,23 @@ cd ~/environment
 git clone https://github.com/aws-samples/aws-fault-injection-simulator-workshop.git
 ```
 
-If this is this first time you are using CloudShell you may receive a dialog box asking to confirm a multi-line paste:
+CloudShell을 처음 사용하는 경우 여러 줄 붙여넣기를 확인하는 대화 상자가 나타날 수 있습니다.
 
-{{< img "cloudshell-safe-paste.png" "Confirm CloudShell multi-line paste" >}}
+{{< img "cloudshell-safe-paste.png" "CloudShell 여러 줄 붙여넣기 확인하기" >}}
 
-Optionally uncheck the "Ask before pasting multiline code" checkbox. Then select "Paste".
+원하는 바에 따라 "Ask before pasting multiline code" 체크상자를 헤제합니다. 그런 다음 "Paste"를 선택합니다.
 
-You should see a git clone like this:
+다음과 같은 git 복제 작업에 보일 것입니다.
 
-{{< img "clone-git-repo.png" "GitHub clone" >}}
+{{< img "clone-git-repo.png" "GitHub 복제" >}}
 
-
-### Update tools and dependencies
+### 도구 및 종속성 업데이트
 
 {{% notice info %}}
-The instructions in this workshop assume you are using a bash shell in a linux-like environment. They also rely on a number of tools. Follow these instructions to install the required tools in CloudShell:
+이 워크샵의 지침에서는 Linux와 유사한 환경에서 bash 셸을 사용한다고 가정합니다. 또한 여러 도구를 사용합니다.다음 지침에 따라 CloudShell에 필요한 도구를 설치합니다.
 {{% /notice %}}
 
-Copy/Paste the following code in your CloudShell terminal (you can paste the whole block at once).
+CloudShell 터미널에서 다음 코드를 복사/붙여 넣습니다 (전체 블록을 한 번에 붙여 넣을 수 있습니다).
 
 ```bash
 # Update to the latest stable release of npm and nodejs.

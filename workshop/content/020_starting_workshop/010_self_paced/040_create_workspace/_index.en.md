@@ -24,7 +24,7 @@ Using the region selected in [**Region Selection**]({{< ref "030_region_selectio
 
 When it comes up, customize the environment by:
 
-- Closing the **Welcome tab**
+- Closing the **Welcome** tab
 {{< img "images/020_starting_workshop/cloud9-1.png" "Closing the welcome tab" >}}
 - Opening a new **Terminal** tab in the main work area
 {{< img "images/020_starting_workshop/cloud9-2.png" "Opening new terminal tab" >}}

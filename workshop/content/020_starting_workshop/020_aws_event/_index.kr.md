@@ -1,17 +1,17 @@
 ---
-title: "...at an AWS event"
+title: "AWS 이벤트에서..."
 chapter: true
 weight: 20
 services: true
 ---
 
-### Running the workshop at an AWS Event
+### AWS 이벤트에서 워크샵 진행
 
 {{% notice warning %}}
-Only complete this section if you are at an AWS hosted event (such as re:Invent, AWS Summit, Immersion Day, or any other event hosted by an AWS employee). If you are running the workshop on your own, go to:
-[**Start the workshop on your own**]({{< ref "010_self_paced" >}}).
+AWS에서 주최하는 이벤트 (예: re:Invent, AWS Summit, Immersion Day 또는 AWS 직원이 주최하는 기타 이벤트)에 참석하는 경우에만 이 섹션을 완료하십시오. 워크샵을 자신의 계정을 통해 진행하는 경우 다음으로 이동하십시오.
+[**자신의 계정으로 워크샵 시작**]({{< ref "010_self_paced" >}}).
 {{% /notice %}}
 
-Next step:
+다음 단계:
 
 {{% children %}}
